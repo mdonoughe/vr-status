@@ -1,0 +1,16 @@
+{
+	"source" : "builtin",
+	"applications": [{
+		"app_key": "mdonoughe.VrStatus",
+		"launch_type": "binary",
+		"binary_path_windows": "vr-status.exe",
+		"is_dashboard_overlay": true,
+
+		"strings": {
+			"en_us": {
+				"name": "VR Status",
+				"description": "Tracks status of VR"
+			}
+		}
+	}]
+}

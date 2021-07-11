@@ -1,0 +1,23 @@
+id: my-vr
+# This display name will appear in Home Assistant.
+name: My VR
+# Optional.
+# prefix: vr-status
+# hass_prefix: homeassistant
+
+# Power will be published to <prefix>/<id>/power ON/OFF
+# Active will be published to <prefix>/<id>/active ON/OFF (active/standby)
+# The application name will be published to <prefix>/<id>/application
+
+# If hass_prefix is not "", configuration will be published according to the Home
+# Assistant MQTT discovery spec: https://www.home-assistant.io/docs/mqtt/discovery/
+
+# MQTT connection details:
+mqtt:
+  host: example.com
+  # Optional.
+  # transport: Tls # Alternatively Tcp.
+  # port: 8883 # Default is 1883 when transport is Tcp.
+  # credentials: # Defaults to no authentication.
+  #   username: your-user
+  #   password: secret password

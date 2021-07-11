@@ -1,0 +1,3 @@
+[submodule "bindings/openvr"]
+	path = bindings/openvr
+	url = https://github.com/ValveSoftware/openvr
